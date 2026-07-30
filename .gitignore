@@ -14,8 +14,8 @@ test_snapshots/
 *.wasm
 
 # IDE
-.vscode/
 .idea/
+temp_auto_push.bat
 *.swp
 *.swo
 
@@ -31,6 +31,7 @@ Thumbs.db
 *.temp
 
 # Environment secrets
-.env
-.env.*
-!.env.example
+!.env.example.gitignore
+branch_structure.json
+config.bat
+node_modules
